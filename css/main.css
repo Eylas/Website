@@ -97,7 +97,48 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.landingWrapper {
+    background-color: #999;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.hello {
+    background-color: brown;
+    display: flex;
+    position: relative;
+    flex-flow: column;
+}
+
+.aboutMeWrapper {
+    background-color: #222;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillsContainer {
+    background-color: #b3d4fc;
+    display: flex;
+    flex-wrap: wrap;
+    height: 30%;
+    margin: 5%;
+    align-items: center;
+
+}
+
+.skillsItems {
+    background-color: greenyellow;
+    width: 10em;
+    height: 10em;
+    border: white 1px solid;
+    margin: 1em;
+}
 
 
 
