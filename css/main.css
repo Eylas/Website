@@ -118,18 +118,29 @@ textarea {
     height: 100vh;
     width: 100vw;
     display: flex;
+    flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
 }
 
-.skillsContainer {
+.skillsContainer-1 {
     background-color: #b3d4fc;
     display: flex;
     flex-wrap: wrap;
-    height: 30%;
-    margin: 5%;
+    height: 100%;
+    width: 100%;
     align-items: center;
+    justify-content: center;
+}
 
+.skillsContainer-2 {
+    background-color: #b3d4fc;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .skillsItems {
@@ -138,6 +149,8 @@ textarea {
     height: 10em;
     border: white 1px solid;
     margin: 1em;
+    height: 50%;
+    width: 15%;
 }
 
 
