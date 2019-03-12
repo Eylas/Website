@@ -148,9 +148,40 @@ textarea {
     width: 10em;
     height: 10em;
     border: white 1px solid;
-    margin: 1em;
+    margin: 2%;
     height: 50%;
     width: 15%;
+}
+
+.portfolioWrapper {
+    background-color: grey;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolioContainer {
+    background-color: bisque;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100%;
+    width: 80%;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolioItems {
+    background-color: beige;
+    width: 10em;
+    height: 10em;
+    border: white 1px solid;
+    margin: 2%;
+    height: 40%;
+    width: 25%;
 }
 
 
